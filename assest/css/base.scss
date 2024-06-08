@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+$primary: #B89146;
+$primary-rgb: 184, 145, 70;
+$secondary: #0E1317;
+$secondary-rgb: 14, 19, 23;
+$white: #fff;
+$white-rgb: 255, 255, 255;
+$black: #000000;
+$black-rgb: 0, 0, 0;
+$font-family-h:'Bai Jamjuree';
+$font-family-p:'Lato';
+$gray: #6c757d;
+$gray-dark: #343a40;
+$success: #198754;
+$info: #0dcaf0;
+$warning: #ffc107;
+$danger: #dc3545;
+$btn: #c77a63;
+$dark: #212529;
+$text: #2c2a49;
+$fs: 16px;
+$lh: 1.5;
+$fw: 400;
+$gutter-width: 15px;
+
+
+:root {
+    --primary-color: #(--primary);
+    --primary-color-rgb: #(--primary-rgb);
+    --bs-secondary: #(--secondary);
+    --bs-secondary-rgb: #(--secondary-rgb);
+    --white-color: #(--white);
+    --white-color-rgb: #(--white-rgb);
+    --black-color: #(--black-color);
+    --black-color-rgb: #(--black-rgb);
+    --font-h: #($font-family-h);
+    --font-p: #($font-family-p);
+    --gray-color: #(--gray);
+    --gray-dark-color: #(--gray-dark);
+    --success-color: #(--succes);
+    --info-color: #(--info);
+    --warning-color: #(--warning);
+    --danger-color: #(--danger);
+    --text-color: #(--text) 
+    --btn-color: #(--btn);
+    --dark-color: #(--dark);
+    --fs: #($fs);
+    --lh: #($lh);
+    --fw: #($fw);
+    --gutter-width: #($gutter-width);
+}
+body{
+    font-family: var(--font-h);
+    font-size: var(--fs);
+    font-weight: var(--fw);
+    line-height: var(--lh);
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+    padding-left: 0;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.container{
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--gutter-width);
+    padding-right: var(--gutter-width); 
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--gutter-width));
+    margin-right: calc(-1 * var(--gutter-width)); 
+}
+
+html{
+    overflow-x: hidden;
+}
+
+.m1{
+    margin-right: 65%;
+}
+.m2{
+    margin-right: 63%;
+}

@@ -1,0 +1,97 @@
+.blog{
+    padding-top: 120px;
+    padding-bottom: 60px;
+    font-family:'Bai Jamjuree';
+
+    .blog-title{
+        text-align: center;
+      
+        h5{
+            font-size: 16px;
+            color: #B89146;
+            font-weight: 700;
+            margin-bottom: 2%;
+            font-family:'Bai Jamjuree';
+        }
+        h2{
+            font-size: 45px;
+            line-height: 60px;
+            margin-bottom: 2%;
+            font-family:'Bai Jamjuree';
+        }
+    }
+
+    .blog-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 5%;
+        height: 357px;
+        z-index: -1;
+        padding: 12px;
+        position: relative;
+
+        .b-1{
+            background-image: url(../images/Blog/blog-1.jpg);
+            width: 416px;
+            height: 250px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 20px;
+        }
+        .b-2{
+            background-image: url(../images/Blog/blog-2.jpg);
+            width: 416px;
+            height: 250px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 20px;
+        }
+        .b-3{
+            background-image: url(../images/Blog/blog-3.jpg);
+            width: 416px;
+            height: 250px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 20px;
+        }
+
+
+        .blog-box{
+            width: 376px;
+            height: 198px;
+            background-color: white;
+            padding: 35px 30px;
+            margin: 150px 20px 0px;
+            position: absolute;
+            text-align: center;
+            border: 1px solid rgb(213, 213, 213);
+
+            .blog-box-con{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            h3{
+                font-size: 30px;
+            }
+            span{
+                font-size: 15px;
+            }
+            p{
+                font-size: 22px;
+                margin-left: 10%;
+            }
+            h5{
+                font-size: 17px;
+                margin-top: 10%;
+            }
+        }
+
+    }
+
+}

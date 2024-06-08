@@ -1,0 +1,44 @@
+.from{
+    background-color: #0E1317;
+    padding: 35px 40px 28px;
+  width: 100%;
+  height: 100%;
+  font-family:'Bai Jamjuree';
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+
+  p{
+    padding-bottom: 1px;
+  }
+
+  input,select{
+    outline: none;
+    border: none;
+    padding: 7px 15px; 
+    color: #B89146;
+}
+
+
+.btn-2{ 
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B89146;
+
+    transition: all 0.1s ease;
+
+    a{
+        color: white;
+    }
+    &:hover a{
+        color: #B89146;
+    }
+    &:hover{
+        background-color: white;
+    }
+}
+
+}

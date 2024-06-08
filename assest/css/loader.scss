@@ -1,0 +1,20 @@
+.loader {
+	position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: #040821 ;
+	background-size: 100px 100px;
+ img{
+  width: 200px;
+  object-fit: cover;
+  animation: bounce infinite;
+  border-bottom: 2px dotted #B89146;
+  padding-bottom: 30px;
+ }
+}

@@ -1,0 +1,134 @@
+.w-1{
+    width: 8.3333%; 
+}
+.w-2{
+    width: 16.6666%;
+}
+.w-3{
+    width: 25%;
+}
+.w-4{
+    width: 33.3333%;
+}
+.w-5{
+    width: 41.6666%;
+}
+.w-6{
+    width: 50%;
+}
+.w-7{
+    width: 58.3333%;
+}
+.w-8{
+    width: 66.6666%;
+}
+.w-9{
+    width: 75%;
+}
+.w-10{
+    width: 83.3333%;
+}
+.w-11{
+    width: 91.6666%;
+}
+.w-12{
+    width: 100%;
+}
+.w-1, .w-2, .w-3, .w-4, .w-5, .w-6, .w-7, .w-8, .w-9, .w-10, .w-11, .w-12{
+    padding-left: var(--gutter-width);
+    padding-right: var(--gutter-width);
+}
+.justify-start{
+    justify-content: flex-start;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-evenly{
+    justify-content: space-evenly;
+}
+.items-start{
+    align-items: flex-start;
+}
+.items-center{
+    align-items: center;
+}
+.items-end{
+    align-items: flex-end;
+}
+.items-baseline{
+    align-items: baseline;
+}
+.items-stretch{
+    align-items: stretch;
+}
+.align-start{
+    align-content: flex-start;
+}
+.align-center{
+    align-content: center;
+}
+.align-end{
+    align-content: flex-end;
+}
+.align-between{
+    align-content: space-between;
+}
+.align-around{
+    align-content: space-around;
+}
+.align-evenly{
+    align-content: space-evenly;
+}
+.self-start{
+    align-self: flex-start;
+}
+.self-center{
+    align-self: center;
+}
+.self-end{
+    align-self: flex-end;
+}
+.text-start{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-end{
+    text-align: right;
+}
+.row-gap-30{
+    row-gap: 30px;
+}
+.py-50{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.py-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.py-150{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.py-200{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+

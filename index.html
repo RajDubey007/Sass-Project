@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <!-- all-min.css -->
+   <link rel="stylesheet" href="assest/css/all.min.css">
+
+     <!-- swiper -->
+     <link rel="stylesheet" href="assect/css/swiper-bundle.min.css">
+
+     <!-- aos-css -->
+     <link rel="stylesheet" href="assect/css/aos.css">
+
+    <link rel="stylesheet" href="assest/css/font.css">
+    
+    <link rel="stylesheet" href="assest/css/style.css">
+
+
+    <style>
+            .toggle{
+                margin-left: 50%;
+            }
+            .toggle i {
+            padding: 10px;
+            
+            background-color: orangered;
+            font-size: 24px;
+            cursor: pointer;
+            /* display:none; */
+        }
+    </style>
+
+</head>
+
+<div class="loader" style=" overflow-x: hidden;">
+    <div class="logo" data-aos="fade-right"  data-aos-delay="50">
+        <a href="index.html">
+            <img src="assest/images/logo/logo-w.png" alt="logo-png">
+        </a>
+    </div>
+</div> 
+
+<div id="cursor"></div>
+
+<body>
+
+    <a id="button"></a>
+
+    <header>
+        <div class="container">
+            <div class="row justify-between items-center">
+                <div class="w-2">
+                    <div class="logo logo-bar">
+                        <a href="index.html">
+                            <img src="assest/images/logo/logo-w.png" alt="logo-png">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="w-7">
+                    <nav class=".navigation w-md-d-n">
+                        <ul>
+                          
+                            <li class="dropdown">
+                                <span>Home</a> &nbsp; <i class="fa-solid fa-angle-down"></i><span></span>
+                                    <div class="dropdown-menu">
+                                        <a href="#">About</a>
+                                        <a href="#">Team</a>
+                                        <a href="#">Testimonials</a>
+                                        <a href="#">FAQ</a>
+                                        <a href="#">404 Error Page</a>
+                                    </div>
+                            </li>
+                            <li class="dropdown">
+                                <span>About</a> &nbsp; <i class="fa-solid fa-angle-down"></i><span></span>
+                                    <div class="dropdown-menu">
+                                        <a href="#">About</a>
+                                        <a href="#">Team</a>
+                                        <a href="#">Testimonials</a>
+                                        <a href="#">FAQ</a>
+                                        <a href="#">404 Error Page</a>
+                                    </div>
+                            </li>
+                            <li class="dropdown">
+                                <span>Pages</a><span ><i class="fa-solid fa-angle-down" ></i></span></span>
+                                <div class="dropdown-menu">
+                                    <a href="#">Manu</a>
+                                    <a href="#">Gallery</a>
+                                    <a href="#">Spa & Wellness</a>
+                                    <a href="#">Amenities</a>
+                                    <a href="#">Events</a>
+                                    <a href="#">Gallery</a>
+                                    <a href="#">Packages</a>
+
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <span>Rooms</a><span><i class="fa-solid fa-angle-down"></i></span></span>
+                                <div class="dropdown-menu">
+                                    <a href="#">Room Style 01</a>
+                                    <a href="#">Room Style 02</a>
+                                    <a href="#">Room Details</a>
+
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <span>Contact</span>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+                <!-- serch-bar -->
+
+                <div class="w-2 d-flex items-center justify-center">
+                    <div class="btn">
+
+                        <a href="#">Book Now</a>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="banner-sec">
+            <div class="banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="banner-content ">
+                            <h1>
+                                <span> The Best Hotel</span> <br>
+                                <span class="sp1"> Deals in the World </span>
+                            </h1>
+                            <!-- <div class="video items-center justify-center">
+                                
+                                <span>
+                                    <i class="fa-solid fa-play"></i>          
+                                </span>
+                                    
+                            </div> -->
+
+                            <div class="outer-circle items-center justify-center">
+                                <div class="inner-circle">
+                                    <span>
+                                        <i class="fa-solid fa-play"></i>          
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="w-12 d-flex">
+                        <div class="from d-flex">
+                            <div class="w-2">
+                                <form>
+                                    <p>Check In</p>
+                                    <input placeholder="17 Sep, 2022" class="" type="text"
+                                        id="nd_booking_archive_form_date_range_from" name="form-name">
+                                </form>
+
+                            </div>
+                            <div class="w-2">
+                                <p>Check Out</p>
+                                <input class="t3" placeholder="21 Sep, 2022" class="" type="text"
+                                    id="nd_booking_archive_form_date_range_to" name="form-name">
+                            </div>
+                            <div class="w-2">
+                                <p>Room</p>
+                                <select>
+                                    <option data-display="1 Room">1 Room</option>
+                                    <option value="2">2 Rooms</option>
+                                    <option value="3">3 Rooms</option>
+                                    <option value="4">4 Rooms</option>
+                                    <option value="5">5 Rooms</option>
+                                </select>
+                            </div>
+                            <div class="w-2">
+                                <p>ADULTS:</p>
+                                <select>
+                                    <option>2 Adults</option>
+                                    <option value="1">1 Adult</option>
+                                    <option value="3">3 Adults</option>
+                                    <option value="4">4 Adults</option>
+                                    <option value="5">5 Adults</option>
+                                </select>
+                            </div>
+                            <div class="w-2">
+                                <div class="btn-2">
+
+                                    <a href="javascript:void(0);">Check Availability </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- <div class="welcome"> -->
+    
+        <section class="py-100">
+            <div class="container">
+                <div class="row welcome">
+                            <div class="w-6">
+                                <div class="welcome-content">
+                                    <span>Accommodations</span>
+
+                                    <h2> Welcome Our Hotels <br>And Resorts </h2>
+
+                                    <p>Savvy travelers are looking for more than just the next destination <br> on the map. They are looking for a memorable experience and to <br> make new friends along the way.</p>
+
+                                    <div class="d-flex items-center justify-center m1">
+                                        <div class="btn">
+                    
+                                            <a href="#">READ MORE</a>
+                                            <i class="fa-solid fa-arrow-right-long"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-6"> 
+                                <div class="welcome-img">
+                                    <img class="img-1" src="assest/images/welcome/hotel-1.jpg" alt="1">
+                                    <img class="img-2" src="assest/images/welcome/hotel-2.jpg" alt="1">
+                                </div>
+                            </div>
+                    <!-- <div> -->
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Restaurant -->
+
+        <section class="py-50">
+            <div class="container">
+                <div class="row Restaurant">
+                    <div class="w-6"> 
+                        <div class="Restaurant-img">
+                            <img class="img-1" src="assest/images/Restaurant/feature-1.jpg" alt="1">
+                        </div>
+                    </div>
+
+                    <div class="w-6">
+                        <div class="Restaurant-content">
+                            <span>Our Food</span>
+
+                            <h2> Restaurant Silo</h2>
+
+                            <p>
+                                Proin massa augue, lacinia at blandit ac, fringilla scelerisque <br> tortor. Mauris sit amet lectus porta, at blandit ac at tortor RJ<br>Proin massa augue, lacinia at blandit ac, fringilla scelerisque 
+                            </p>
+                            <div class="d-flex items-center justify-center m2">
+                                <div class="btn">
+            
+                                    <a href="#">READ MORE</a>
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- Library -->
+
+        <section class="py-50">
+            <div class="container">
+                <div class="row Library">
+                    <div class="w-6">
+                        <div class="Library-content">
+                            <span>Read Our Books</span>
+                            <h2> The Library</h2>
+                            <p>
+                                Proin massa augue, lacinia at blandit ac, fringilla scelerisque <br> tortor. Mauris sit amet lectus porta, at blandit ac at tortor RJ<br>Proin massa augue, lacinia at blandit ac, fringilla scelerisque 
+                            </p>
+                            <div class="d-flex items-center justify-center m2">
+                                <div class="btn">
+            
+                                    <a href="#">READ MORE</a>
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-6"> 
+                        <div class="Library-img">
+                            <img class="img-1" src="assest/images/Library/feature-2.jpg" alt="1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Exercise -->
+
+        <section class="py-50">
+            <div class="container">
+                <div class="row Exercise">
+                    <div class="w-6"> 
+                        <div class="Exercise-img">
+                            <img class="img-1" src="assest/images/Exercise/feature-3.jpg" alt="1">
+                        </div>
+                    </div>
+
+                    <div class="w-6">
+                        <div class="Exercise-content">
+                            <span>Fitness Equipment</span>
+
+                            <h2> Exercise equipment</h2>
+
+                            <p>
+                                Proin massa augue, lacinia at blandit ac, fringilla scelerisque <br> tortor. Mauris sit amet lectus porta, at blandit ac at tortor RJ<br>Proin massa augue, lacinia at blandit ac, fringilla scelerisque 
+                            </p>
+                            <div class="d-flex items-center justify-center m2">
+                                <div class="btn">
+            
+                                    <a href="#">READ MORE</a>
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Swimming Pool -->
+
+        <section class="py-50">
+            <div class="container">
+                <div class="row Swimming">
+                    <div class="w-6">
+                        <div class="Swimming-content">
+                            <span>Experiences</span>
+                            <h2>Swimming Pool</h2>
+                            <p>
+                                Proin massa augue, lacinia at blandit ac, fringilla scelerisque <br> tortor. Mauris sit amet lectus porta, at blandit ac at tortor RJ<br>Proin massa augue, lacinia at blandit ac, fringilla scelerisque 
+                            </p>
+                            <div class="d-flex items-center justify-center m2">
+                                <div class="btn">
+            
+                                    <a href="#">READ MORE</a>
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-6"> 
+                        <div class="Swimming-img">
+                            <img class="img-1" src="assest/images/Swimming/feature-4.jpg" alt="1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Room -->
+
+        <section class="py-50">
+            <div class="container">
+                <div class="row Room">
+                    <div class="w-6">
+                        <div class="Room-content">
+                            <span>Our Luxury Rooms</span>
+                            <h2>Our Luxury Rooms</h2>
+                            
+                        </div>
+                    </div>
+
+                    <div class="w-6 Room-box d-flex justify-between items-center"> 
+                        <p>All Room </p>
+                        <p class="box-p-c">Luxury</p> 
+                        <p>Singl</p>
+                        <p>Small Suite</p>
+                        <p>Family</p>
+                    </div>
+                </div>
+
+                <div class="row justify-between items-center row-gap-30 room-images">
+                    <div class="w-3">
+                        <div class="room-content room-1">
+                            <span>$134</span><span class="span-2">/ Night</span>
+                            <h2>Small Suite</h2>
+                        </div>
+                   </div>
+                   <div class="w-6">
+                        <div class="room-content room-2 text-1">     
+                            <h5>$107</h5> <h5 class="span-3">/ Night</h5>
+                            <h6>Deluxe Room</h6>
+                        </div>
+                   </div>
+                   
+                   <div class="w-3">
+                        <div class="room-content room-3">
+                            <span>$319</span><span class="span-2">/ Night</span>
+                            <h2>Family Room</h2>
+                        </div>
+                    </div>
+                
+                   <div class="w-6">
+                        <div class="room-content room-4  text-1">
+                            <h5>$199</h5> <h5 class="span-3">/ Night</h5>
+                            <h6>Single Room</h6>
+                        </div>
+                   </div>
+                   <div class="w-6  text-1">
+                        <div class="room-content room-5">
+                            <h5>$118</h5> <h5 class="span-3">/ Night</h5>
+                            <h6>Luxury Room</h6>
+                        </div>
+                   </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Book -->
+
+        <section class="book-bg">
+            <div class="container bg-black">
+                <div class="row book">
+                    <div class="w-6">
+                        <div>
+                            <h1>Book hotel rooms, get deals & <br> book flights online.</h1>
+                        </div>
+                    </div>
+                    <div class="w-6">
+                        <div class="outer-circle v1 items-center justify-center">
+                            <div class="inner-circle">
+                                <span>
+                                    <i class="fa-solid fa-play"></i>          
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                   
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog -->
+        
+        <section class="blog">
+            <div class="container">
+                <div class="blog-title">
+                    <h5>Our Blog</h5>
+                    <h2>Read Our Blog and News</h2>
+                </div>
+                <div class="row">
+                   <div class="blog-content">
+                        <div class="w-3 b-1">
+                           <div class="blog-box">
+                            <div class="blog-box-con">
+                                <div>
+                                    <h3>21</h3>
+                                    <span>Jul~2023</span>
+                                </div>
+                                <p>
+                                    Find cheap hotels in the best locations
+                                </p>
+                            </div>
+                
+                            <h5>READ MORE &nbsp; <span><i class="fa-solid fa-share"></i></span></h5>
+                            
+                                
+                              
+                           </div>
+                           
+                        </div>
+
+                        <div class="w-3 b-1">
+                            <div class="blog-box">
+                             <div class="blog-box-con">
+                                 <div>
+                                     <h3>21</h3>
+                                     <span>Sep~2023</span>
+                                 </div>
+                                 <p>
+                                    Book a room Today most Affordable Rates.
+                                 </p>
+                             </div>
+                 
+                             <h5>READ MORE &nbsp; <span><i class="fa-solid fa-share"></i></span></h5>
+                              
+                            </div>
+                            
+                         </div>
+                         <div class="w-3 b-1">
+                            <div class="blog-box">
+                             <div class="blog-box-con">
+                                 <div>
+                                     <h3>21</h3>
+                                     <span>Aug~2023</span>
+                                 </div>
+                                 <p>
+                                    Our expertise covers all Aspects of the industry
+                                 </p>
+                             </div>
+                 
+                             <h5>READ MORE &nbsp; <span><i class="fa-solid fa-share"></i></span></h5>
+                         
+                            </div>
+                            
+                         </div>
+                   </div>  
+                </div>
+            </div>
+        </section>
+
+        <!-- Designer -->
+
+        <section class="Designer">
+            <div class="container bg-black-2">
+                <div class="row">
+                    <div class="Designer-content">
+                        <img src="assest/images/Designer/testimonial-1.jpg" alt="1">
+
+                        <div>
+                            <h4>Ridley Scott</h4>
+                            <span>UX Designer</span>
+                            <p>
+                                Proin massa augue, lacinia at blandit ac, fringilla scelerisque tortor. Mauris sit amet lectus porta, porta lectus non, malesuada neque. Integer in tempus leo. Quisque vitae leo ac ex suscipit iaculis eu in nisl. Donec vestibulum volutpat lectus, vel aliquet massa porttitor in. Integer eleifend
+                            </p>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="w-3">
+                    <div class="footer-contant">
+                        <img src="assest/images/logo/logo-w.png" alt="f-logo">
+                       
+                        <p>Phasellus nisi sapien, rutrum placerat sapien eu, rhoncus tempus</p>
+                        <br>
+                        <p>Phasellus nisi sapien, rutrum placerat </p>
+                        <div class="footer-icon" style="text-align: center; margin-top: 10px;">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-3">
+                    <div class="footer-contant">
+                        <h4>Information</h4>
+                        <ul>
+                            <li>
+                                <a href="#">GXF4+8HQ Chippenham <br> United Kingdom</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-solid fa-envelope-open-text"></i> &nbsp; &nbsp; info.help@gmail.com</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-solid fa-phone"></i> &nbsp; 125 (895) 007 658 568</a>
+                            </li>
+                            <li>
+                                <a href="#">Tempus placerat</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="w-3">
+                    <div class="footer-contant">
+                        <h4>Information</h4>
+                        <ul>
+                            <li>
+                                <a href="#">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Services</a>
+                            </li>
+                            <li>
+                                <a href="#">Blogs</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="w-3">
+                    <div class="footer-contant">
+                        <h4>Subscribe</h4>
+                    </div>
+
+                    <form>
+                        <input type="email" placeholder="Email address">
+                        <div class="footer-btn">
+                            <div class="btn-2">
+                                <a href="javascript:void(0);"><i class="fa-regular fa-hand-point-up"></i></a>
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+
+            <p class="f-line"></p>
+
+            <div class="row">
+               <div class="f-c">
+                <div class="w-6 t1">
+                    <h3>Copyright<span class="t2">&nbsp; ThemeOri</span>&nbsp;Website by<span class="t2"> Hostily</span></h3>
+                </div>
+                <div class="w-6 d1">
+                    <h3>Copyright © 2023 ThemeOri Website by Hostily</h3>
+                </div>
+                <div class="w-6 d1">
+                    <h3>Copyright © 2023 ThemeOri Website by Hostily</h3>
+                </div>
+
+                <div class="w-6">
+                    <h3>FAQ -Terms of Use - Privacy Policy</h3>
+                </div>
+               </div>
+            </div>
+        </div>
+    </footer> 
+    
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+    </script>
+    <script src="assest/js/jquery-3.7.1.min.js"></script>
+    <script src="assest/js/swiper-bundle.min.js"></script>
+    <script src="assest/js/aos.js"></script>
+
+
+    <script>
+      $(window).on("load",function(){ 
+  
+  //Fade Out
+  $(".loader").delay(1000).fadeOut(500);
+  
+  //Slide Left
+//   $(".loader").delay(1500).animate({width:'toggle'},2000);
+  
+});
+</script>
+
+    <!-- back-to top btn -->
+    <script>
+        var btn = $('#button');
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+
+        btn.on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: 0 }, '300');
+        });
+
+
+    </script>
+
+
+<script>
+       $(document).ready(function () {
+            $(".toggle").click(function () {
+                $("nav").fadeToggle(1000)
+            });
+        });
+</script>
+
+    <!-- counter -->
+    <script>
+        (() => {
+            const counter = document.querySelectorAll('.counter');
+            // covert to array
+            const array = Array.from(counter);
+            // select array element
+            array.map((item) => {
+                // data layer
+                let counterInnerText = item.textContent;
+
+                let count = 1;
+                let speed = item.dataset.speed / counterInnerText
+                function counterUp() {
+                    item.textContent = count++
+                    if (counterInnerText < count) {
+                        clearInterval(stop);
+                    }
+                }
+                const stop = setInterval(() => {
+                    counterUp();
+                }, speed);
+            })
+        })()
+
+    </script>
+
+       <!-- cursor -->
+       <script>
+        const cursor = document.getElementById("cursor");
+     const stalker = document.getElementById("stalker");
+     document.addEventListener("mousemove", (event) => {
+       const x = event.clientX;
+       const y = event.clientY;
+       cursor.style.transform = `translate(${x}px, ${y}px)`;
+       stalker.style.transform = `translate(${x}px, ${y}px)`;
+     });
+   </script>
+
+</body>
+
+</html>

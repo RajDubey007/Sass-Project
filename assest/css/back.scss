@@ -1,0 +1,38 @@
+#button {
+    display: inline-block;
+    background-color: rgb(255, 111, 0);
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #button::after {
+    content: "\f102";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #f1a61a;
+  }
+  #button:active {
+    background-color: #f9a60d;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  

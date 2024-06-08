@@ -1,0 +1,92 @@
+.Exercise{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family:'Bai Jamjuree';
+    background-color: #F7F7F7;
+    padding: 12px;
+}
+
+.Exercise-content{
+    .btn {
+        width: 208px;
+        height: 60px;
+        background-color: #b89146;
+        border: 1px solid #B89146;
+        padding: 16px 25px;
+        margin-left: 10px;
+        transition: all 0.4s linear;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .btn i{
+        margin-left: 15px;
+        width: 18px;
+        height: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        
+    }
+    .btn a {
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .btn:hover {
+        background: white;
+        border-radius: 30px;
+    }
+    .btn:hover a{
+        color: #B89146;
+       
+    }
+}
+.Exercise-content{
+    padding-left: 80px;
+}
+.Exercise-content h2{
+    font-size: 45px;
+    line-height: 60px;
+    color: #0e1317;
+    font-weight: 500;
+    // margin-left: 10px;
+    margin-top: 5%;
+
+}
+.Exercise-content span{
+    font-size: 16px;
+    color: #B89146;
+    // margin-left: 15px;
+}
+.Exercise-content p{
+    font-family: 'Lato';
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 4%;
+    margin-bottom: 50px;
+    // margin-left: 10px;
+}
+
+.Exercise-img{
+    padding: 11px;
+    .Exercise-img img{
+
+        width: 636px;
+        height: 415px;
+        z-index: 1;
+        // top: 52%;
+        // transform: translateY(-47%);
+        // position: absolute;
+        // right: 0;
+    }
+
+}
+
+

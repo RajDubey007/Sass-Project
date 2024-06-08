@@ -1,0 +1,25 @@
+#cursor {
+    position: fixed;
+    width: 12px;
+    height: 12px;
+    background-color: orange ;
+    border-radius: 100%;
+    pointer-events: none;
+    border: 1px solid white;
+    z-index: 1000;
+    transition: transform ease-out 10ms;
+  }
+  
+  #stalker {
+    position: fixed;
+    margin-top: -15px;
+    margin-left: -15px;
+    width: 40px;
+    height: 40px;
+    background-color: #8ef1f3;
+    opacity: 30%;
+    border-radius: 100%;
+    pointer-events: none;
+    transition: transform ease-out 100ms;
+    z-index: 999;
+  }
